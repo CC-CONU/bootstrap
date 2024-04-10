@@ -24,3 +24,6 @@ shell.run("wget https://raw.githubusercontent.com/CC-CONU/coreutils/main/rm.lua 
 shell.run("wget https://raw.githubusercontent.com/CC-CONU/coreutils/main/uname.lua /bin/uname.lua")
 shell.run("wget https://raw.githubusercontent.com/CC-CONU/coreutils/main/mv.lua /bin/mv.lua")
 shell.run("wget https://raw.githubusercontent.com/CC-CONU/coreutils/main/pwd.lua /bin/pwd.lua")
+print("Installing CASH")
+shell.run("wget https://raw.githubusercontent.com/MCJack123/cash/master/cash.lua /bin/cash.lua")
+shell.run("wget https://raw.githubusercontent.com/MCJack123/cash/master/env.lua /bin/env.lua")
